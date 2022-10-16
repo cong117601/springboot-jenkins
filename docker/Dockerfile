@@ -13,5 +13,5 @@ ADD jarfile/spring*.jar /app_jenkins.jar
 #RUN bash -c 'touch /app_docker.jar'
 ENTRYPOINT ["java","-jar","/app_jenkins.jar"]
 #暴露6001端口作为微服务
-EXPOSE 8080
+EXPOSE 9999
 ENV LANG C.UTF-8

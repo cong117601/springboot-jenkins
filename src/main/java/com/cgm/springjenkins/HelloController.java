@@ -22,4 +22,9 @@ public class HelloController {
     public String get3() {
         return "hello3";
     }
+
+    @RequestMapping("/hello4")
+    public String get4() {
+        return "hello Docker";
+    }
 }
